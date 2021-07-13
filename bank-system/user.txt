@@ -1,2 +1,0 @@
-user1 1111aaAA 150
-user2 2222ssAA 390
