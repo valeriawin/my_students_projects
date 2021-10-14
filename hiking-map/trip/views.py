@@ -3,13 +3,6 @@ import folium
 from django.views.generic import TemplateView
 
 
-
-#def folium_map(request):
-    #map = folium.Map(location=[27.55, 53.54], zoom_start = 8, tiles = "Mapbox bright")
-    #for coordinates in [[53.890567, 27.550834],[53.941065, 27.346893]]:
-        #folium.Marker(location=coordinates, icon=folium.Icon(color = 'green')).add_to(map)
-    #map.save("default.html")
-
 class FoliumView(TemplateView):
     template_name = "trip/default.html"
 
