@@ -8,6 +8,7 @@ class CommentForm(forms.Form):
             "placeholder": "Your Name"
         })
     )
+    
     body = forms.CharField(widget=forms.Textarea(
         attrs={
             "class": "form-control",
